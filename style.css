@@ -1,0 +1,29 @@
+/* Går helt fint å copy paste */
+body {
+  min-height: 100vh;
+  margin: 0px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  flex-grow: 1;
+}
+
+section {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
